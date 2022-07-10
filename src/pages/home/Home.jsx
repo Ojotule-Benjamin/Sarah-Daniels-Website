@@ -1,4 +1,5 @@
 import React from "react";
+import AboutUs from "../../components/aboutUs/AboutUs";
 import { CarouselSection } from "../../components/carousel/CarouselSection";
 import Navbar from "../../components/navbar/Navbar";
 import Shop from "../../components/shop/Shop";
@@ -12,6 +13,7 @@ const Home = () => {
       <Navbar />
       <CarouselSection />
       <Shop />
+      <AboutUs />
     </div>
   );
 };

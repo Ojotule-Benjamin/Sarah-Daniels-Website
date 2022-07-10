@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel } from "react-bootstrap";
 import carouseImage1 from "../../assets/svgs/carouseImage1.svg";
 import carouseImage2 from "../../assets/svgs/carouseImage2.svg";
