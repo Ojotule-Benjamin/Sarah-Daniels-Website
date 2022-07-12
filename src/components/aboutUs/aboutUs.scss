@@ -8,11 +8,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
-    margin: 10%;
+    //padding: 30px;
+    //margin: 10%;
 
     h1 {
-      width: 316px;
+      width: auto;
       height: 60px;
       margin: 0;
       font-family: "Poppins";
@@ -24,7 +24,7 @@
       color: #5cce0e;
     }
     h2 {
-      width: 919px;
+      width: auto;
       height: 108px;
       margin: 0;
       font-family: "Poppins";
@@ -36,9 +36,10 @@
       color: #1a1a1a;
     }
     p {
-      width: 815px;
-      height: 288px;
+      width: auto;
+      height: auto;
       margin: 30px 0 0 0;
+      padding: 0 20%;
       font-family: "Poppins";
       font-style: normal;
       font-weight: 700;

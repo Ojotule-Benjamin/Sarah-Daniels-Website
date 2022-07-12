@@ -1,0 +1,98 @@
+.shopMainContainer {
+  width: 100%;
+  height: 1868px;
+  background-color: #f3f3f3;
+
+  .shopMainTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    h1 {
+      width: 604.79px;
+      height: 48.92px;
+      font-family: "Lobster";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 50px;
+      text-align: center;
+      color: #1a1a1a;
+    }
+  }
+  .shopMainWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: center;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: center;
+    // align-items: center;
+    // flex-wrap: nowrap;
+    // margin: 0;
+
+    .shopMainItems {
+      width: auto;
+      //height: 415.78px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      margin-bottom: 5%;
+      img {
+        width: 293.87px;
+        height: 400px;
+        left: 167px;
+        top: 3677px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+      }
+      h5 {
+        width: 229px;
+        height: 47px;
+        margin: 0;
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        margin-bottom: 5px;
+        color: #000000;
+      }
+      h6 {
+        width: 604.79px;
+        height: 29.35px;
+        margin: 0;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.2em;
+        color: #5cce0e;
+        margin-bottom: 10px;
+      }
+      button {
+        align-items: center;
+        width: 200.02px;
+        height: 78.26px;
+        background: #cf9d5e;
+        color: #ffffff;
+        border: 2px solid #cdb699;
+        border-radius: 5px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        margin: 0;
+      }
+    }
+  }
+}

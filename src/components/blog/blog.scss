@@ -1,0 +1,39 @@
+.blogMain {
+  background-color: lightpink;
+  width: auto;
+  height: 940px;
+  background: #f3f3f3;
+
+  .blogMainTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    margin: 0 0 10% 0;
+
+    h1 {
+      width: 348px;
+      height: 48px;
+      font-family: "Poppins";
+      font-style: italic;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 48px;
+      text-align: center;
+      color: rgba(40, 74, 16, 0.88);
+    }
+    h3 {
+      width: 638px;
+      height: 30px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center;
+      letter-spacing: 0.465em;
+      color: rgba(141, 208, 95, 0.78);
+    }
+  }
+}
