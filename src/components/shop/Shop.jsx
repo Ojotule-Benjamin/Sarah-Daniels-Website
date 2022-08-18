@@ -1,4 +1,3 @@
-import React from "react";
 import { Logo2 } from "../../assets/svgs/logo2";
 import shopImage1 from "../../assets/svgs/shopImage1.svg";
 import shopImage2 from "../../assets/svgs/shopImage2.svg";
@@ -24,6 +23,28 @@ const Shop = () => {
             <p>SHOP NOW</p>
           </button>
         </div>
+        <div className="shopItems">
+          <img src={shopImage2} alt="shopItems" />
+          <h4>Wedding Planning</h4>
+          <button>
+            <p>SHOP NOW</p>
+          </button>
+        </div>
+        <div className="shopItems">
+          <img src={shopImage3} alt="shopitems" />
+          <h4>Catering & Decoration</h4>
+          <button>
+            <p>SHOP NOW</p>
+          </button>
+        </div>
+
+        {/* <div className="shopItems">
+          <img src={shopImage1} alt="shopItems" />
+          <h4>Bouquets & Style</h4>
+          <button>
+            <p>SHOP NOW</p>
+          </button>
+        </div>
 
         <div className="shopItems">
           <img src={shopImage2} alt="shopitems" />
@@ -39,7 +60,7 @@ const Shop = () => {
           <button>
             <p>SHOP NOW</p>
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

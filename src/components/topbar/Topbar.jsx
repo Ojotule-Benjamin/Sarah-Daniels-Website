@@ -12,35 +12,30 @@ import "./topbar.scss";
 export const Topbar = () => {
   return (
     <div className="topbar">
-      <div className="topBarLeftIcons">
-        <a href="https://web.facebook.com/" target={"_blank"} rel="noreferrer">
-          <FacebookOutlined />
+      <div className="left">
+        <a href="https://twitter.com/" target={"_blank"} rel="noreferrer">
+          <FacebookOutlined className="icons" />
         </a>
         <a href="https://twitter.com/" target={"_blank"} rel="noreferrer">
-          <Twitter />
+          <Twitter className="icons" />
         </a>
-        <a href="https://www.instagram.com/" target={"_blank"} rel="noreferrer">
-          <Instagram />
+        <a href="https://twitter.com/" target={"_blank"} rel="noreferrer">
+          <Instagram className="icons" />
         </a>
-        <a href="https://www.whatsapp.com/" target={"_blank"} rel="noreferrer">
-          <WhatsApp />
+        <a href="https://twitter.com/" target={"_blank"} rel="noreferrer">
+          <WhatsApp className="icons" />
         </a>
       </div>
 
-      <div className="topBarCenterItem">
-        <div className="logo">
-          <Logo />
-        </div>
-
+      <div className="centre">
+        <Logo className="topBarIcon" />
         <h3>
-          D'Sarah <span>Daniels Brand</span>
+          D'Sarah <span>Daniel Brand</span>
         </h3>
-        <span>Event Planer</span>
       </div>
-
-      <div className="topBarRightIcons">
+      <div className="right">
         <Call />
-        <span> Call us +234 7035853644</span>
+        <a href="tel:+234 7035853644">+234 7035853644</a>
       </div>
     </div>
   );

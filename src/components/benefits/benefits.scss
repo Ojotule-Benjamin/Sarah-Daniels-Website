@@ -8,27 +8,30 @@
   align-items: center;
 
   .benefitsContainer {
-    width: 1098px;
-    height: 332.86px;
+    width: 80%;
+    height: 350px;
+    margin: 0 10%;
     background: rgba(205, 182, 153, 0.44);
     display: flex;
-    flex-direction: row;
-    // margin-left: 20%;
-    // margin-right: 20%;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
 
     .benefitsItems {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       padding: 0;
       margin: 0;
 
       .benefitsLogoBox {
-        width: 100px;
-        height: 108.15px;
-        margin-top: -50%;
-        margin-bottom: 20%;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: -40px;
+        // margin-top: -50%;
+        // margin-bottom: 20%;
         border-radius: 50%;
         background: #5cce0e;
         display: flex;
@@ -36,28 +39,22 @@
         justify-content: center;
       }
     }
-    h3 {
-      width: 240.91px;
-      height: 53.72px;
+    h4 {
       margin: 0;
       font-family: "Poppins";
       font-style: italic;
       font-weight: 600;
-      font-size: 32px;
-      line-height: 48px;
-      text-align: center;
+      font-size: 30px;
+
       color: #000000;
     }
     p {
-      width: 341px;
-      height: 33.58px;
       margin: 0;
       font-family: "Poppins";
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
-      line-height: 24px;
-      text-align: center;
+
       color: #000000;
     }
   }

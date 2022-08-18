@@ -36,8 +36,8 @@ export function ExclusiveDesign() {
   return (
     <svg
       width="50"
-      height="59"
-      viewBox="0 0 50 59"
+      height="41"
+      viewBox="0 0 50 41"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -53,8 +53,8 @@ export function HandTied() {
   return (
     <svg
       width="50"
-      height="36"
-      viewBox="0 0 50 36"
+      height="41"
+      viewBox="0 0 50 41"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

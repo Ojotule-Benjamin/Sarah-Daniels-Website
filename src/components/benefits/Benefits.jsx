@@ -1,4 +1,3 @@
-import React from "react";
 import { CarLogo, ExclusiveDesign, HandTied } from "../../assets/svgs/logo2";
 import "./benefits.scss";
 
@@ -10,24 +9,25 @@ const Benefits = () => {
           <div className="benefitsLogoBox">
             <CarLogo />
           </div>
-          <h3>Free Delivery</h3>
+          <h4>Free Delivery</h4>
           <p>On every order, during the same day</p>
+        </div>
+        <div className="benefitsItems">
+          <div className="benefitsLogoBox">
+            <HandTied />
+          </div>
+          <h4>Hand-tied</h4>
+          <p>By the best Event Planner in Nigeria</p>
+          {/* <p>Bouquets and Styles</p> */}
         </div>
 
         <div className="benefitsItems">
           <div className="benefitsLogoBox">
             <ExclusiveDesign />
           </div>
-          <h3>Exclusive Design</h3>
-          <p>By the best Event Planner in Nigeria</p>
-        </div>
+          <h4>Exclusive Design</h4>
 
-        <div className="benefitsItems">
-          <div className="benefitsLogoBox">
-            <HandTied />
-          </div>
-          <h3>Hand-Tied</h3>
-          <p>Bouquets and Styles</p>
+          <p>By the best Event Planner in Nigeria</p>
         </div>
       </div>
     </div>
