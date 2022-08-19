@@ -1,17 +1,16 @@
-import React from "react";
 import inspirationImage from "../../assets/svgs/inspirationImage.svg";
 import "./inspiration.scss";
 
 export const Inspiration = () => {
   return (
     <div className="inspirationMain">
-      <div className="inspirationMainLeft">
+      <div className="left">
         <img src={inspirationImage} alt="mediaImages" />
       </div>
-      <div className="inspirationMainRight">
-        <h1>Media</h1>
+      <div className="right">
+        <h1>Inspiration</h1>
         <h3>
-          You need inspiration?{" "}
+          You need inspiration?
           <span>Then explore our exclusive media page</span>
         </h3>
         <p>
@@ -23,7 +22,9 @@ export const Inspiration = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum."
         </p>
-        <button>Gallery</button>
+        <button>
+          <span>Gallery</span>
+        </button>
       </div>
     </div>
   );

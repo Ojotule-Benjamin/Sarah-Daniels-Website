@@ -1,11 +1,46 @@
 .feedBackMain {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   background-color: aqua;
+  background-image: url("../../assets/svgs/feedbackImage.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left bottom;
   width: 100%;
-  height: 584px;
-  //background: #ffffff;
-  margin: 0;
+  height: auto;
+  //height: 770px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  //background: #f3f3f3;
+  //justify-content: space-around;
+
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    label {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center;
+      letter-spacing: 0.1em;
+      color: #5cce0e;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    input {
+    }
+  }
 }

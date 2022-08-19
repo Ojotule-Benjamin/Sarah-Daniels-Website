@@ -4,7 +4,7 @@ import "bootstrap/js/dist/dropdown";
 import "./navbar.scss";
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg bg-light fixed-top">
       <div className="container-fluid">
         <button
           className="navbar-toggler"

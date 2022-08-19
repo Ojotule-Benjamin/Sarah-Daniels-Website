@@ -1,13 +1,13 @@
-import React from "react";
 import AboutUs from "../../components/aboutUs/AboutUs";
 import Benefits from "../../components/benefits/Benefits";
 //import { Blog } from "../../components/blog/Blog";
 import { CarouselSection } from "../../components/carousel/CarouselSection";
-// import { FeedBack } from "../../components/feedback/FeedBack";
-// import { Inspiration } from "../../components/inspiration/Inspiration";
+import { FeedBack } from "../../components/feedback/FeedBack";
+import { Inspiration } from "../../components/inspiration/Inspiration";
 import Navbar from "../../components/navbar/Navbar";
+import Services from "../../components/services/Services";
 import Shop from "../../components/shop/Shop";
-// import { ShopMain } from "../../components/shopMain/ShopMain";
+import { ShopMain } from "../../components/shopMain/ShopMain";
 import { Topbar } from "../../components/topbar/Topbar";
 import "./home.scss";
 
@@ -20,10 +20,11 @@ const Home = () => {
       <Shop />
       <AboutUs />
       <Benefits />
-      {/* <ShopMain />
+      <ShopMain />
       <Inspiration />
+      <Services />
       <FeedBack />
-      <Blog /> */}
+      {/*<Blog /> */}
     </div>
   );
 };

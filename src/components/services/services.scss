@@ -1,0 +1,92 @@
+.servicesMain {
+  width: 100%;
+  height: auto;
+  background: rgba(255, 205, 142, 0.48);
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    h1 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 48px;
+      text-align: center;
+      color: rgba(40, 74, 16, 0.88);
+    }
+  }
+  .serviceWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    img {
+      width: 334px;
+      height: 112px;
+      margin-bottom: 20px;
+    }
+    .serviceContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+
+      .serviceItems {
+        background: #d9d9d9;
+        width: 334px;
+        height: 400px;
+        h3 {
+          font-family: "Poppins";
+          font-style: italic;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 36px;
+          text-align: center;
+          color: rgba(40, 74, 16, 0.88);
+        }
+
+        h6 {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 27px;
+          text-align: center;
+          letter-spacing: 0.14em;
+          color: #5cce0e;
+        }
+        hr {
+          width: 298px;
+          height: 0px;
+          border: 1px solid rgba(0, 0, 0, 0.35);
+        }
+        h4 {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 27px;
+          text-align: center;
+          letter-spacing: 0.14em;
+          color: #5cce0e;
+          span {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 27px;
+            text-align: center;
+            letter-spacing: 0.14em;
+            color: #1a1a1a;
+          }
+        }
+      }
+    }
+  }
+}

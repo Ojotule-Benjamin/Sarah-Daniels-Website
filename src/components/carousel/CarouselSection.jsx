@@ -46,6 +46,10 @@ export const CarouselSection = () => {
         </Carousel.Item>
       </Carousel>
 
+      {/* <div className="test">
+        <h4>we can provide anything</h4>
+      </div> */}
+
       <div className="discount">
         <h4>ORDER Full Package Plan & Get - 25% discount</h4>
         <button type="submit">SEND REQUEST</button>
