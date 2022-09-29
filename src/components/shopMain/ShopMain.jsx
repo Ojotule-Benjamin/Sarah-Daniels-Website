@@ -25,3 +25,4 @@ export const ShopMain = () => {
     </div>
   );
 };
+export default ShopMain;

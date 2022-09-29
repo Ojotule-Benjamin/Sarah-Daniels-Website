@@ -7,6 +7,7 @@ import {
 } from "@mui/icons-material";
 import React from "react";
 import { Logo } from "../../assets/svgs/logo";
+import { Link } from "react-router-dom";
 import "./topbar.scss";
 
 export const Topbar = () => {

@@ -57,3 +57,4 @@ export const CarouselSection = () => {
     </div>
   );
 };
+export default CarouselSection;

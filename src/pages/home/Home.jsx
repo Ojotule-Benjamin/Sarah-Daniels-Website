@@ -9,6 +9,7 @@ import Services from "../../components/services/Services";
 import Shop from "../../components/shop/Shop";
 import { ShopMain } from "../../components/shopMain/ShopMain";
 import { Topbar } from "../../components/topbar/Topbar";
+import Footer from "../../components/footer/Footer";
 import "./home.scss";
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
       <Inspiration />
       <Services />
       <FeedBack />
+      <Footer />
       {/*<Blog /> */}
     </div>
   );

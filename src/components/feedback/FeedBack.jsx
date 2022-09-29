@@ -9,24 +9,21 @@ export const FeedBack = () => {
         <h2>Contact Form</h2>
         <Logo2 />
       </header>
-      <div className="formContainer">
-        <label>
-          Email *
-          <input />
-          <label>
-            Name *
-            <input />
-          </label>
-        </label>
 
-        <label>
-          Message *
-          <input />
-        </label>
-        <button>
-          <span>Send Message</span>
-        </button>
-      </div>
+      <form className="formContainer">
+        <div className="emailItems">
+          <label>Email *</label>
+          <input type="text" />
+          <label>Name *</label>
+          <input type="text" />
+        </div>
+
+        <label>Message *</label>
+        <textarea rows="4" cols="50" name="#" form="#">
+        </textarea>
+
+        <button>Send Message</button>
+      </form>
     </div>
   );
 };
